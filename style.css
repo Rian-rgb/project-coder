@@ -313,6 +313,11 @@ form button:hover{
     #contact-detail{
         gap: 30px;
     }
+
+    #form-group{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width: 992px){
@@ -360,5 +365,16 @@ form button:hover{
 
     #contact-detail > div, #contact-detail form{
         width: 100%;
+    }
+
+    #more-contact{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #service-header{
+        display: flex;
+        flex-direction: column;
     }
 }
